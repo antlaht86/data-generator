@@ -15,6 +15,10 @@ a {
   box-sizing: border-box;
 }
 
+label {
+  margin-bottom: 0.25rem
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

@@ -9,23 +9,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .title a {
@@ -108,6 +91,35 @@
   margin-left: 0.5rem;
 }
 
+.data{
+  width: 100%;
+}
+.typeInputWrapper{
+  width: 100%;
+  margin: 2rem 0;
+}
+.typeInput{
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 16px;
+  padding: 0.25rem;
+}
+
+.sendButton{
+  margin: 1rem 0;
+  font-size: 16px;
+  padding: 0.25rem;
+}
+
+.labelStyle {
+  margin-bottom: 0.25rem
+}
+
+.spinnerWrapper {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -127,3 +139,5 @@
     filter: invert(1);
   }
 }
+
+
